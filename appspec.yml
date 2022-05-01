@@ -3,13 +3,13 @@ os: linux
 files:
   - source: /
     destination: /var/www/ruby
- hooks:
-   BeforeInstall:
-     - location: beforeInstall.sh
-       runas: root
-   ApplicationStart:
-     - location: applicationStart.sh
-       runas: root
+hooks:
+  BeforeInstall:
+    - location: scripts/beforeInstall.sh
+      runas: root
+  ApplicationStart:
+    - location: scripts/applicationStart.sh
+      runas: root
 #   ApplicationStop:
 #     - location: scripts/applicationStop.sh
 #       runas: root
