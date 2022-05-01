@@ -2,13 +2,13 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/ruby
+    destination: /home/ubuntu/rails
 hooks:
   BeforeInstall:
-    - location: scripts/beforeInstall.sh
+    - location: beforeInstall.sh
       runas: root
   ApplicationStart:
-    - location: scripts/applicationStart.sh
+    - location: applicationStart.sh
       runas: root
 #   ApplicationStop:
 #     - location: scripts/applicationStop.sh
