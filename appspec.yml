@@ -5,7 +5,7 @@ files:
     destination: /home/ubuntu/rails
 hooks:
   BeforeInstall:
-    - location: beforeInstall.sh
+    - location: before.sh
       runas: root
   ApplicationStart:
     - location: applicationStart.sh
