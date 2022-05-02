@@ -1,3 +1,5 @@
+#!/bin/bash
+
 sudo su -
 rm -rf /home/ubuntu/rails
 git clone https://github.com/JD4912/test_project.git /home/ubuntu/rails
