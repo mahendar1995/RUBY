@@ -6,7 +6,7 @@ files:
     overwrite: true
 hooks:
   BeforeInstall:
-    - location: before.sh
+    - location: beforeInstall.sh
       runas: root
   ApplicationStart:
     - location: applicationStart.sh
