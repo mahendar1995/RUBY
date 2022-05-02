@@ -2,4 +2,4 @@
 
 cd /home/ubuntu/rails
 
-rvmsudo rails server -d -b 0.0.0.0
+Bundle exec rails server –binding=0.0.0.0
