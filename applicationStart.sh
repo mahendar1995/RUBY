@@ -2,4 +2,4 @@
 
 cd /home/ubuntu/rails
 
-# bash -lc "rails server -b 0.0.0.0"
+rvmsudo rails server -d -b 0.0.0.0
