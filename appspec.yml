@@ -54,10 +54,10 @@ permissions:
 hooks:
   BeforeInstall:
     - location: beforeInstall.sh
-      runas: root
+      runas: ubuntu
   ApplicationStart:
     - location: applicationStart.sh
-      runas: root
+      runas: ubuntu
 #   ApplicationStop:
 #     - location: scripts/applicationStop.sh
 #       runas: root
