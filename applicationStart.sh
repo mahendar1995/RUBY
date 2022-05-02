@@ -2,4 +2,4 @@
 
 cd /home/ubuntu/rails
 
-Bundle exec rails server –binding=0.0.0.0
+bash -lc "bundle exec rails server -b 0.0.0.0"
