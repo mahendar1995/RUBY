@@ -1,9 +1,9 @@
 version: 0.0
 os: linux
 files:
-  - source: /config.ru
-    destination: /home/ubuntu/rails
-    overwrite: true
+#   - source: /config.ru
+#     destination: /home/ubuntu/rails
+#     overwrite: true
     
   - source: /Gemfile
     destination: /home/ubuntu/rails
