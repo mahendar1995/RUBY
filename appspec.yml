@@ -5,43 +5,43 @@ files:
 #     destination: /home/ubuntu/rails
 #     overwrite: true
     
-  - source: /Gemfile
-    destination: /home/ubuntu/rails
-    overwrite: true
+#   - source: /Gemfile
+#     destination: /home/ubuntu/rails
+#     overwrite: true
     
-  - source: /Gemfile.lock
-    destination: /home/ubuntu/rails
-    overwrite: true
+#   - source: /Gemfile.lock
+#     destination: /home/ubuntu/rails
+#     overwrite: true
     
-  - source: /Rakefile
-    destination: /home/ubuntu/rails
-    overwrite: true
+#   - source: /Rakefile
+#     destination: /home/ubuntu/rails
+#     overwrite: true
     
-  - source: /README.md
-    destination: /home/ubuntu/rails
-    overwrite: true
+#   - source: /README.md
+#     destination: /home/ubuntu/rails
+#     overwrite: true
     
-  - source: /app/
-    destination: /home/ubuntu/rails
-    overwrite: true
+#   - source: /app/
+#     destination: /home/ubuntu/rails
+#     overwrite: true
     
-  - source: /config/
-    destination: /home/ubuntu/rails
-    overwrite: true
+#   - source: /config/
+#     destination: /home/ubuntu/rails
+#     overwrite: true
     
-  - source: /lib/
-    destination: /home/ubuntu/rails
-    overwrite: true
+#   - source: /lib/
+#     destination: /home/ubuntu/rails
+#     overwrite: true
     
-  - source: /log/
-    destination: /home/ubuntu/rails
-    overwrite: true
+#   - source: /log/
+#     destination: /home/ubuntu/rails
+#     overwrite: true
     
-  - source: /vendor/
-    destination: /home/ubuntu/rails
-    overwrite: true
+#   - source: /vendor/
+#     destination: /home/ubuntu/rails
+#     overwrite: true
     
-  - source: /public/
+  - source: /
     destination: /home/ubuntu/rails
     overwrite: true
     
