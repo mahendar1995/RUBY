@@ -13,4 +13,3 @@ hooks:
 #   ApplicationStop:
 #     - location: scripts/applicationStop.sh
 #       runas: root
-
