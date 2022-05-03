@@ -20,12 +20,8 @@ phases:
       - git clone https://github.com/JD4912/test_project.git /home/ubuntu/rails
       - echo "change the working directory and delete Gemfile.lock"
       - sudo cd /home/ubuntu/rails && rm Gemfile.lock\
-  buildApplication:
-    commands:
       - echo "Install the budle package"
       - bundle install
-  ApplicationStart:
-    commands:
       - echo "Run the Rails server"
       - rails server -b 0.0.0.0
     
