@@ -21,6 +21,8 @@ phases:
       - echo "change the working directory and delete Gemfile.lock"
       - sudo cd /home/ubuntu/rails && rm Gemfile.lock\
       - echo "Install the budle package"
-      - bundle v2.3.12 install 
+      - bundle install 
+      - bundle update --bundler
+      - gem install bundler:2.3.12
       - echo "Run the Rails server"
       - rails server -b 0.0.0.0
