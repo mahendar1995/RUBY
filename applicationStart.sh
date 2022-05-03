@@ -2,4 +2,4 @@
 
 cd /home/ubuntu/rails
 
-bash -lc "bundle exec rails server -b 0.0.0.0"
+bundle exec passenger start -p 80 -a 0.0.0.0 -d
