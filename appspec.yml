@@ -10,10 +10,28 @@ permissions:
     group: root
     mode: 777
     
-hooks:
-  BeforeInstall:
-    - location: beforeInstall.sh
-      runas: root
+    
+phases:
+  install:
+    commands:
+      - echo "remove old files"
+      - rm -rf /home/ubuntu/rails
+      - echo "clone new file using github repo"
+      - git clone https://github.com/JD4912/test_project.git /home/ubuntu/rails
+      - echo "change the working directory and delete Gemfile.lock"
+      - sudo cd /home/ubuntu/rails && rm Gemfile.lock
+      - echo "Install the budle package"
+      - bundle install
+      - echo "Run the Rails server"
+      - rails server -b 0.0.0.0
+    
+    
+    
+    
+# hooks:
+#   BeforeInstall:
+#     - location: beforeInstall.sh
+#       runas: root
 #   ApplicationStart:
 #     - location: applicationStart.sh
 #       runas: root
