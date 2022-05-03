@@ -25,6 +25,7 @@ phases:
       - echo "Install the budle package"
       - bundle install
   ApplicationStart:
+    commands:
       - echo "Run the Rails server"
       - rails server -b 0.0.0.0
     
