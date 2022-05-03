@@ -24,7 +24,3 @@ phases:
       - bundle install
       - echo "Run the Rails server"
       - rails server -b 0.0.0.0
-    
- 
-
-
