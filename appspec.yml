@@ -1,10 +1,9 @@
 version: 0.0
 os: linux
 files:
-  - source: /
-    destination: /home/ubuntu/rails
-    
-    
+#   - source: /
+#     destination: /home/ubuntu/rails
+       
 permissions:
   - object: /home/ubuntu/rails
     owner: root
